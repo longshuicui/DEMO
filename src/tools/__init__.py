@@ -7,3 +7,4 @@
 @Date    ：2025/9/14 11:17 
 @Desc    ：
 """
+from pydantic import BaseModel
