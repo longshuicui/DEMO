@@ -1,0 +1,23 @@
+Screen {
+    layout: vertical;
+}
+
+#execution_container {
+    height: 1fr;
+    border: solid $primary;
+}
+
+#input_container {
+    height: auto;
+    max-height: 5;
+    border: solid $secondary;
+}
+
+RichLog {
+    scrollbar-size: 1 1;
+    scrollbar-size-horizontal: 1;
+}
+
+Input {
+    height: 3;
+}

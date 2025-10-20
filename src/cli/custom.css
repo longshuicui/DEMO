@@ -1,0 +1,48 @@
+#main_container {
+    layout: vertical;
+    height: 1fr;
+}
+
+Display {
+    height: 1fr;
+    overflow-y: auto;
+    border: solid $primary;
+    margin: 1;
+    padding: 1;
+    background: $surface;
+    scrollbar-gutter: stable;
+}
+
+#chat_area {
+    height: 1fr;
+    overflow-y: auto;
+    border: solid $primary;
+    margin: 1;
+    padding: 1;
+    background: $surface;
+}
+
+#input_container {
+    height: auto;
+    margin: 1;
+    padding: 1;
+    background: $surface;
+}
+
+#input_message {
+    width: 1fr;
+    margin-right: 1;
+}
+
+#submit_button {
+    margin-right: 1;
+}
+
+
+Header {
+    background: $primary;
+}
+
+Footer {
+    background: $secondary;
+}
